@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation · Counterly</title>
+<meta name="description" content="How to install, activate and set up Counterly, add products and stock, make GST bills, send invoices on WhatsApp and email, and back up and restore your data.">
+<meta property="og:title" content="Documentation · Counterly">
+<meta property="og:description" content="How to install, activate and set up Counterly, add products and stock, make GST bills, send invoices on WhatsApp and email, and back up and restore your data.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&display=swap">
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.className='js'+(matchMedia('(prefers-reduced-motion: reduce)').matches?'':' motion')</script>
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand s20" href="index.html" aria-label="Counterly home"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#3E76EA"/><path d="M28 13a11 11 0 1 0 0 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg>Counterly</a>
+    <ul class="links">
+      <li><a href="features.html">Features</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a aria-current="page" href="docs.html">Docs</a></li>
+    </ul>
+    <a class="navlink" href="contact.html">Contact</a>
+    <a class="btn sm" href="download.html">Download</a>
+    <details class="menu">
+      <summary aria-label="Menu"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+      <nav aria-label="Site"><a href="features.html">Features</a><a href="solutions.html">Solutions</a><a href="security.html">Security</a><a href="pricing.html">Pricing</a><a aria-current="page" href="docs.html">Docs</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="download.html">Download</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="phero">
+  <div class="glow g1" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow">Documentation</p>
+    <h1>Everything you need to run Counterly.</h1>
+    <p class="s20 muted">From the first install to restoring a backup on a new PC. Written for version 1.0.7.</p>
+  </div>
+</section>
+
+<div class="wrap docs">
+  <nav class="toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#start">Getting started</a></li>
+      <li><a href="#activate">Activate your license</a></li>
+      <li><a href="#shop">Set up your shop</a></li>
+      <li><a href="#products">Add products</a></li>
+      <li><a href="#stock">Receive stock</a></li>
+      <li><a href="#billing">Make a bill</a></li>
+      <li><a href="#gst">How GST is worked out</a></li>
+      <li><a href="#cancel">Cancel a bill</a></li>
+      <li><a href="#email">Email invoices</a></li>
+      <li><a href="#whatsapp">WhatsApp invoices</a></li>
+      <li><a href="#status">Sending status</a></li>
+      <li><a href="#backup">Backup and restore</a></li>
+      <li><a href="#reset">Clear the workspace</a></li>
+      <li><a href="#trouble">Troubleshooting</a></li>
+    </ol>
+  </nav>
+
+  <article class="prose">
+    <section id="start">
+      <h2>Getting started</h2>
+      <p>A new installation starts empty: no products, customers, bills or shop details. Work through these steps once, in order.</p>
+      <ol>
+        <li><a href="download.html">Download and install</a> Counterly, then open it.</li>
+        <li>Copy the Hardware ID from the activation screen and <a href="#activate">activate your license</a>.</li>
+        <li>In <b>Settings → App</b>, save your shop name, logo, address, phone, GSTIN and invoice note.</li>
+        <li>Add your products with their selling price, cost and minimum stock.</li>
+        <li>Record received stock in <b>Inventory</b>, one lot per purchase cost.</li>
+        <li>Add business or personal customers as you need them.</li>
+        <li>If you want invoices sent automatically, set up <a href="#email">email</a> and <a href="#whatsapp">WhatsApp</a>, and send one test invoice on each.</li>
+        <li>Use <b>POS</b> for billing, <b>Inventory</b> for restocking, <b>Sales</b> for saved invoices and <b>Reports</b> for analysis.</li>
+      </ol>
+    </section>
+
+    <section id="activate">
+      <h2>Activate your license</h2>
+      <p>The activation screen shows your PC's <b>Hardware ID</b> with a copy button. Send it to us with the term you want (1, 3, 6 or 12 months). We send back a signed key: paste it into the activation field. Activation works offline.</p>
+      <ul>
+        <li>A key works only on the PC whose Hardware ID it was issued for.</li>
+        <li>When a license expires, business actions lock but every record stays. A new key for the same PC unlocks it again.</li>
+        <li><b>Export my records</b> on the activation screen exports your data at any time, with or without a license.</li>
+      </ul>
+      <div class="note"><p>If the PC's clock once ran ahead and was then corrected, Counterly reports a clock rollback. A new, unused activation key restores access and resets the clock record.</p></div>
+    </section>
+
+    <section id="shop">
+      <h2>Set up your shop</h2>
+      <p>Open <b>Settings → App</b> and save your shop or business name, address, phone, GSTIN, invoice note and logo. Billing stays locked until the name and address are saved, so no invoice goes out without a real seller on it.</p>
+      <ul>
+        <li>The logo must be a small PNG. It appears on the sidebar, the window title and icon, and every new invoice.</li>
+        <li>Saving the name and logo creates a desktop launcher named after your shop. Click <b>Show shop app file</b> to find it. It opens the same records.</li>
+        <li>Add a GSTIN to get "Tax Invoice" titles, place of supply and CGST/SGST/IGST lines.</li>
+      </ul>
+    </section>
+
+    <section id="products">
+      <h2>Add products</h2>
+      <p>Each product needs a name, a unique SKU, a unit and a selling price. Optional fields: category, HSN/SAC code (4 to 8 digits), GST rate (18% unless you change it) and minimum stock level.</p>
+      <ul>
+        <li>For barcode scanning, enter the number printed under the barcode as the SKU.</li>
+        <li>Enter a profit percentage to have the selling price worked out from cost.</li>
+        <li>Initial stock and its cost can be entered when you create the product.</li>
+        <li>Products that have been sold can't be deleted, because old invoices refer to them.</li>
+      </ul>
+    </section>
+
+    <section id="stock">
+      <h2>Receive stock</h2>
+      <p>In <b>Inventory</b>, use <b>Adjust stock</b> to add or reduce stock. Each addition records a quantity, purchase cost, date, and optionally a supplier and batch. A purchase at a different cost is saved as a new lot.</p>
+      <p><b>Breakdown</b> shows every lot for a product: what came in, when, at what cost, and how much is left. The average cost shown is worked out from what's left:</p>
+      <pre><code>average cost = total remaining lot cost ÷ total remaining quantity</code></pre>
+      <p>Sales always take stock from the oldest lot first and save the exact cost used, so later purchases never change past profit.</p>
+    </section>
+
+    <section id="billing">
+      <h2>Make a bill</h2>
+      <ol>
+        <li>In <b>POS / Billing</b>, pick a saved customer, add a new one, or leave it as a walk-in sale.</li>
+        <li>Search by name or SKU (press F2 to jump to search), or scan a barcode. Click a product to add it.</li>
+        <li>Set quantities (up to three decimals), and change the rate or GST % on any line if needed. A changed rate applies to this bill only.</li>
+        <li>Choose Cash, UPI or Card. For cash, enter the amount received to see the change.</li>
+        <li>Click <b>Checkout</b>. The bill is saved, stock is updated and the A4 PDF can be saved or sent.</li>
+      </ol>
+      <p>The bill date is today unless you pick an earlier one. Future dates aren't allowed. If saving the PDF fails, make it again from <b>Sales</b> without charging twice.</p>
+    </section>
+
+    <section id="gst">
+      <h2>How GST is worked out</h2>
+      <p>Rates are entered before GST. The taxable amount is the sum of quantity × rate for every line, kept exactly to the paisa. Then, for each GST rate on the bill:</p>
+      <div class="scroll">
+        <table class="table s14">
+          <thead><tr><th>Situation</th><th>Tax lines on the bill</th></tr></thead>
+          <tbody>
+            <tr><td>Shop has a GSTIN, buyer has none or is in the same state</td><td>CGST and SGST, each at half the rate</td></tr>
+            <tr><td>Shop has a GSTIN, business buyer's GSTIN is from another state</td><td>IGST at the full rate</td></tr>
+            <tr><td>Shop has no GSTIN</td><td>One tax line per rate</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The state is read from the first two digits of each GSTIN, for example 24 for Gujarat and 27 for Maharashtra.</p>
+      <div class="note"><p>Counterly does not generate government e-invoices (IRN and signed QR) or e-way bills. Confirm the invoice format with your tax advisor.</p></div>
+    </section>
+
+    <section id="cancel">
+      <h2>Cancel a bill</h2>
+      <p>For a bill entered by mistake, open <b>Sales</b> and click <b>✕</b> on the bill, then give a reason.</p>
+      <ul>
+        <li>The bill keeps its number and stays in Sales marked "Cancelled".</li>
+        <li>Its items go back to the exact lots they came from.</li>
+        <li>It no longer counts in sales, profit, the dashboard or customer totals.</li>
+        <li>A cancelled bill can't be sent, and cancelling can't be undone. Save its PDF again to get the cancelled copy.</li>
+      </ul>
+    </section>
+
+    <section id="email">
+      <h2>Email invoices</h2>
+      <p>Counterly sends email through your own mail account using SMTP with an app password. It doesn't support signing in with Google or Microsoft.</p>
+      <ol>
+        <li>Get SMTP details and an app password from your email provider.</li>
+        <li>In <b>Settings → WhatsApp &amp; Email</b>, enter the SMTP server, port, username, sender address and app password. Port 587 uses STARTTLS; port 465 uses TLS.</li>
+        <li>Turn on automatic email, save, and click the connection check.</li>
+      </ol>
+      <p>For Gmail accounts that allow app passwords, use <code>smtp.gmail.com</code>, port 587, and your full address as both username and sender. Use a Google app password, not your normal password.</p>
+      <p>The connection check proves the login works, not that mail reaches inboxes. Customers without an email address are simply skipped.</p>
+    </section>
+
+    <section id="whatsapp">
+      <h2>WhatsApp invoices</h2>
+      <p>WhatsApp sending uses the WhatsApp Business Platform Cloud API from Meta. A phone number on its own isn't enough. You set up the account with Meta, and Counterly uses it.</p>
+      <ol>
+        <li>Set up a WhatsApp Business Platform sender with Meta. Note the <b>phone number ID</b> and a <b>business access token</b> that can send messages.</li>
+        <li>In WhatsApp Manager, create an invoice template with a <b>document header</b>, a fixed body and <b>no body variables</b>, for example "Thank you for your purchase. Your invoice is attached." Wait for Meta to approve it.</li>
+        <li>In <b>Settings → WhatsApp &amp; Email</b>, enter the phone number ID, template name, template language, Graph API version and access token. Turn on automatic WhatsApp, save and check the connection.</li>
+        <li>In <b>Customers</b>, record each customer's mobile number and their agreement to receive bills on WhatsApp. Consent is off until you turn it on.</li>
+      </ol>
+      <p>Indian 10-digit mobile numbers get the 91 prefix automatically. Other numbers need their country code. Changing a customer's mobile or turning consent off stops any queued WhatsApp sending to the old number.</p>
+      <div class="note"><p>The connection check confirms your sender, not template approval or delivery. Send one real test invoice before using it with customers.</p></div>
+    </section>
+
+    <section id="status">
+      <h2>Sending status</h2>
+      <p>After checkout, each enabled channel is queued. Counterly checks the queue about every 45 seconds while it's open and online, and picks up again when you reopen it. <b>Sales → Share</b> shows each invoice's status:</p>
+      <div class="scroll">
+        <table class="table s14">
+          <thead><tr><th>Status</th><th>Meaning</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status">Queued</span></td><td>Waiting to be sent.</td></tr>
+            <tr><td><span class="status">Sending</span></td><td>Being handed to WhatsApp or your mail server now.</td></tr>
+            <tr><td><span class="status ok">Provider accepted</span></td><td>WhatsApp or your mail server took the message. It won't be sent again from here.</td></tr>
+            <tr><td><span class="status">Failed</span></td><td>Sending didn't work. Temporary connection problems are retried a limited number of times, and you can retry by hand.</td></tr>
+            <tr><td><span class="status">Unknown</span></td><td>It may or may not have gone. Check with the customer, then confirm a possible duplicate before retrying.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>"Provider accepted" doesn't mean the customer has read it: Counterly doesn't receive read receipts. Turning automatic sending off pauses the queue for that channel; sending by hand from Sales still works.</p>
+    </section>
+
+    <section id="backup">
+      <h2>Backup and restore</h2>
+      <p>Once a day while Counterly is open, a full copy of your shop database is saved as <code>Documents\Counterly Backups\counterly-YYYY-MM-DD.db</code>. The latest 14 days are kept. <b>Settings → Backup &amp; data</b> shows the last backup and warns if one failed or is more than two days old.</p>
+      <h3>Restore on the same PC</h3>
+      <ol>
+        <li>Close Counterly.</li>
+        <li>Copy the backup you want to <code>%APPDATA%\counterly\pos_data.db</code>, replacing the file that's there.</li>
+        <li>Open Counterly.</li>
+      </ol>
+      <h3>Move to a new PC</h3>
+      <ol>
+        <li>Install Counterly on the new PC and restore the backup there, as above.</li>
+        <li>Send us the new PC's Hardware ID and activate the key we send.</li>
+        <li>Enter your email and WhatsApp credentials again. They're encrypted for the old PC and can't be moved.</li>
+      </ol>
+      <p><b>Export to CSV</b> in the same tab saves products, stock receipts, customers, bills and bill items as spreadsheet-ready files for your accountant.</p>
+    </section>
+
+    <section id="reset">
+      <h2>Clear the workspace</h2>
+      <p>To start completely fresh, open <b>Settings → Clear this workspace</b>, type <b>ERASE ALL</b> and choose <b>Erase all data and activation</b>.</p>
+      <p>This removes products, stock and lot history, customers, bills, shop details, logo, settings and the saved activation. A recovery backup is made first, and its location is shown afterwards. You'll need to enter your license key again.</p>
+    </section>
+
+    <section id="trouble">
+      <h2>Troubleshooting</h2>
+      <h3>"Windows protected your PC"</h3>
+      <p>The installer isn't code-signed yet. Click <b>More info</b>, then <b>Run anyway</b>. Check the file's SHA-256 first using the steps on the <a href="download.html#verify">download page</a>.</p>
+      <h3>Checkout is disabled</h3>
+      <p>Save your shop name and address in <b>Settings → App</b>. Billing waits for them.</p>
+      <h3>A database message appears</h3>
+      <p>The message says what's wrong: another program is using the file, the file is read-only, the disk is full, or the file is damaged. For a damaged file, <a href="#backup">restore from a backup</a>.</p>
+      <h3>WhatsApp stopped sending</h3>
+      <p>If the access token has expired, Counterly says so. Create a new token with Meta and enter it in <b>Settings → WhatsApp &amp; Email</b>. Rate limits are retried automatically.</p>
+      <h3>Billing feels slow</h3>
+      <p>Catalogues above roughly 3,000 to 5,000 products feel slow in the billing grid and product lists. Search instead of scrolling.</p>
+      <h3>Still stuck?</h3>
+      <p><a href="contact.html#support">Contact support</a> with your Counterly version, what you were doing, and a screenshot of any message.</p>
+    </section>
+  </article>
+</div>
+
+<section class="night cta-band">
+  <div class="glow g1" aria-hidden="true"></div>
+  <div class="wrap" data-reveal>
+    <h2>Bill your first customer today.</h2>
+    <p class="s20 muted" style="margin-top:20px">Install free, activate with a key, and keep every record on your own PC.</p>
+    <div class="cta" style="justify-content:center">
+      <a class="btn" href="download.html"><svg class="i down" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>Download for Windows</a>
+      <a class="btn ghost-dark" href="contact.html">Talk to us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand s20" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#3E76EA"/><path d="M28 13a11 11 0 1 0 0 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg>Counterly</a>
+        <p class="s14">Billing, stock and real profit for Indian shops, wholesalers and small factories. Runs on Windows. Your data stays on your PC.</p>
+      </div>
+      <nav aria-label="Product"><h2>Product</h2><ul><li><a href="features.html">Features</a></li><li><a href="solutions.html">Solutions</a></li><li><a href="security.html">Security</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="download.html">Download</a></li><li><a href="download.html#releases">Release notes</a></li></ul></nav>
+      <nav aria-label="Resources"><h2>Resources</h2><ul><li><a href="docs.html">Documentation</a></li><li><a href="docs.html#start">Getting started</a></li><li><a href="docs.html#whatsapp">WhatsApp setup</a></li><li><a href="docs.html#backup">Backup and restore</a></li><li><a href="docs.html#trouble">Troubleshooting</a></li></ul></nav>
+      <nav aria-label="Company"><h2>Company</h2><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html#support">Support</a></li></ul></nav>
+      <nav aria-label="Legal"><h2>Legal</h2><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">License terms</a></li></ul></nav>
+    </div>
+    <div class="foot-bottom s14">
+      <span>© 2026 Counterly. All rights reserved.</span>
+      <span>Version 1.0.7 · Windows 10 and 11</span>
+      <span class="foot-contact"><a href="https://wa.me/91XXXXXXXXXX">WhatsApp</a><a href="mailto:sales@counterly.example">Email</a></span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

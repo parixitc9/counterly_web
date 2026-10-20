@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Features · Counterly</title>
+<meta name="description" content="Every Counterly module: POS billing, products, stock lots with FIFO costing, GST tax invoices, customers, sales, reports, WhatsApp and email sending, and daily backups.">
+<meta property="og:title" content="Features · Counterly">
+<meta property="og:description" content="Every Counterly module: POS billing, products, stock lots with FIFO costing, GST tax invoices, customers, sales, reports, WhatsApp and email sending, and daily backups.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&display=swap">
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.className='js'+(matchMedia('(prefers-reduced-motion: reduce)').matches?'':' motion')</script>
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand s20" href="index.html" aria-label="Counterly home"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#3E76EA"/><path d="M28 13a11 11 0 1 0 0 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg>Counterly</a>
+    <ul class="links">
+      <li><a aria-current="page" href="features.html">Features</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="docs.html">Docs</a></li>
+    </ul>
+    <a class="navlink" href="contact.html">Contact</a>
+    <a class="btn sm" href="download.html">Download</a>
+    <details class="menu">
+      <summary aria-label="Menu"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+      <nav aria-label="Site"><a aria-current="page" href="features.html">Features</a><a href="solutions.html">Solutions</a><a href="security.html">Security</a><a href="pricing.html">Pricing</a><a href="docs.html">Docs</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="download.html">Download</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="phero">
+  <div class="glow g1" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow">Features</p>
+    <h1>Everything the counter needs. Nothing it doesn't.</h1>
+    <p class="s20 muted">Billing, stock lots, GST tax invoices, customers, reports and backups in one Windows app. Here is every module, exactly as it works in version 1.0.7.</p>
+    <ul class="chips">
+      <li><a href="#billing">Billing</a></li><li><a href="#products">Products</a></li><li><a href="#inventory">Inventory</a></li><li><a href="#invoices">GST invoices</a></li><li><a href="#customers">Customers</a></li><li><a href="#sales">Sales and corrections</a></li><li><a href="#reports">Reports</a></li><li><a href="#sending">WhatsApp and email</a></li><li><a href="#backup">Settings and backup</a></li>
+    </ul>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="module" id="billing">
+    <div class="head" data-reveal>
+      <p class="eyebrow">POS / Billing</p>
+      <h2>Bill in seconds, at the price you agreed.</h2>
+      <p class="s20 muted">One screen for the person at the counter: find the product, set the rate, take payment and save the invoice.</p>
+    </div>
+    <ul class="spec" data-reveal style="--i:1">
+      <li><b>Search or scan.</b> Find products by name or SKU, with F2 to jump to search. A USB barcode scanner works without setup: the product whose SKU matches is added.</li>
+      <li><b>Per-bill rates.</b> Change the selling price on one bill. The master price, average cost and lot history stay as they are.</li>
+      <li><b>GST per line.</b> Each line starts with the product's GST rate, and you can change it on the bill.</li>
+      <li><b>Loose quantities.</b> Up to three decimals, for kg, litre and metre.</li>
+      <li><b>No overselling.</b> Every add and quantity change checks stock. Out-of-stock products can't be added.</li>
+      <li><b>Cash, UPI or card.</b> Cash checkout asks for the amount received and works out the change.</li>
+      <li><b>Backdated bills.</b> The date defaults to today and can be set earlier. Future dates are rejected.</li>
+      <li><b>Walk-in or saved customer.</b> Search by name, owner or mobile, or add a new customer without leaving the bill.</li>
+    </ul>
+  </section>
+
+  <section class="module" id="products">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Products</p>
+      <h2>A catalogue that protects your history.</h2>
+      <p class="s20 muted">The product master feeds billing and stock. Changing it never rewrites a bill you've already issued.</p>
+    </div>
+    <ul class="spec" data-reveal style="--i:1">
+      <li><b>The basics.</b> Name, SKU, category and unit, such as Box, kg, L or m.</li>
+      <li><b>Unique SKUs.</b> Two products can't share a SKU, even with different capitals.</li>
+      <li><b>Tax details.</b> HSN/SAC code of 4 to 8 digits, and a GST rate that starts at 18%.</li>
+      <li><b>Pricing help.</b> Enter a profit percentage and the selling price is worked out from cost.</li>
+      <li><b>Minimum stock.</b> Set a level, and the product shows up as low stock on the dashboard.</li>
+      <li><b>Search and sort.</b> By name or SKU, and sort by name, stock or selling price.</li>
+      <li><b>Safe edits.</b> A product that has been sold can't be deleted, so old invoices stay accurate.</li>
+    </ul>
+  </section>
+
+  <section class="module" id="inventory">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Inventory and lots</p>
+      <h2>Know what every unit actually cost.</h2>
+      <p class="s20 muted">Each purchase is kept as its own lot. Sales take from the oldest lot first and save the exact cost they used, so profit stays true even when prices move.</p>
+    </div>
+    <div class="stack">
+      <div class="viz" data-reveal style="--i:1">
+        <p class="viz-title s14"><b>Caustic Soda Flakes · lot breakdown</b><span class="muted">Example data</span></p>
+        <div class="scroll">
+          <table class="table s14">
+            <thead><tr><th>Lot</th><th>Received</th><th class="num">Cost</th><th class="num">Remaining</th></tr></thead>
+            <tbody>
+              <tr><td>A · CS-0902</td><td>2026-09-02</td><td class="num">₹2,180</td><td class="num muted">0 of 40</td></tr>
+              <tr><td>B · CS-0918</td><td>2026-09-18</td><td class="num">₹2,200</td><td class="num">20 of 40</td></tr>
+              <tr><td>C · CS-1006</td><td>2026-10-06</td><td class="num">₹2,250</td><td class="num">30 of 30</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="s14 muted">Average cost of the 50 bags left: <b style="color:var(--ink)">₹2,230.00</b>. Lot A sold first.</p>
+      </div>
+      <ul class="spec" data-reveal style="--i:2">
+        <li><b>Every receipt is a lot.</b> Quantity, purchase cost, date, supplier and batch.</li>
+        <li><b>Breakdown view.</b> See what was added, when, at what cost, and how much of each lot is left.</li>
+        <li><b>Adjust stock.</b> Add or reduce stock. A new cost becomes a new lot instead of changing an old one.</li>
+        <li><b>Stock value.</b> Units in stock, value at cost, selling value before tax, and low or out-of-stock counts.</li>
+        <li><b>Safe checkouts.</b> If a multi-item checkout fails partway, every change is rolled back.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="module" id="invoices">
+    <div class="head" data-reveal>
+      <p class="eyebrow">GST tax invoices</p>
+      <h2>A4 invoices with the right tax on them.</h2>
+      <p class="s20 muted">Counterly reads the state from the first two digits of each GSTIN and picks the tax lines for you.</p>
+      <a class="more" href="index.html#gst">See the example invoice <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="stack">
+      <div class="viz" data-reveal style="--i:1">
+        <p class="viz-title s14"><b>Which tax goes on the bill</b><span class="muted">Shop GSTIN in Gujarat (24)</span></p>
+        <div class="scroll">
+          <table class="table s14">
+            <thead><tr><th>Buyer</th><th>Tax lines</th></tr></thead>
+            <tbody>
+              <tr><td>No GSTIN, or a Gujarat GSTIN (24…)</td><td>CGST + SGST, half the rate each</td></tr>
+              <tr><td>GSTIN from another state (27… Maharashtra)</td><td>IGST at the full rate</td></tr>
+              <tr><td>Any buyer, when the shop has no GSTIN</td><td>One tax line per rate</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <ul class="spec" data-reveal style="--i:2">
+        <li><b>Your identity.</b> Logo, address, phone and GSTIN, with "Tax Invoice" and place of supply when you have a GSTIN.</li>
+        <li><b>Every line in full.</b> Description, SKU, unit, HSN/SAC, quantity, rate, GST % and taxable value.</li>
+        <li><b>Bill to and ship to.</b> Shipping falls back to the billing address when there isn't one.</li>
+        <li><b>Long bills.</b> Invoice number and "Page x of y" on every page.</li>
+        <li><b>Cancelled bills.</b> The PDF carries a CANCELLED banner with the reason.</li>
+        <li><b>Saved for you.</b> PDFs go to your Documents folder, named by invoice number. Make one again without charging twice.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="module" id="customers">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Customers</p>
+      <h2>Every customer, every bill.</h2>
+      <p class="s20 muted">Business and walk-in buyers in one place, with the details each invoice needs.</p>
+    </div>
+    <ul class="spec" data-reveal style="--i:1">
+      <li><b>Business or personal.</b> Name, owner name, mobile, optional email, GSTIN for businesses.</li>
+      <li><b>Two addresses.</b> Billing address, and an optional shipping address.</li>
+      <li><b>Full history.</b> Total purchases, last purchase date and every bill, each one viewable.</li>
+      <li><b>Quick search.</b> By customer name, owner name or mobile, with a Business or Personal filter.</li>
+      <li><b>WhatsApp consent.</b> Recorded per customer and off until they agree.</li>
+      <li><b>Bills keep their snapshot.</b> Editing a customer later doesn't change bills already issued.</li>
+    </ul>
+  </section>
+
+  <section class="module" id="sales">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Sales and corrections</p>
+      <h2>Fix a wrong bill without losing the record.</h2>
+      <p class="s20 muted">The sales register keeps every bill. A mistake is cancelled with a reason, never quietly deleted.</p>
+    </div>
+    <ul class="spec" data-reveal style="--i:1">
+      <li><b>Bill register.</b> Bill number, customer, date, payment method and amount, with a From and To date filter.</li>
+      <li><b>Per bill.</b> View it, save the PDF, or share it on WhatsApp or email.</li>
+      <li><b>Cancel with a reason.</b> The number stays and the bill is marked "Cancelled".</li>
+      <li><b>Stock goes back.</b> Items return to the exact lots they came from.</li>
+      <li><b>Reports stay true.</b> Cancelled bills leave sales, profit, the dashboard and customer totals.</li>
+    </ul>
+  </section>
+
+  <section class="module" id="reports">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Reports</p>
+      <h2>See your shop at a glance.</h2>
+      <p class="s20 muted">Overview, Sales, Products, Stock and Profit, for any dates you pick. When data is missing, the report says so instead of inventing a number.</p>
+    </div>
+    <div class="stack">
+      <div class="viz" data-reveal style="--i:1">
+        <p class="viz-title s14"><b>Profit · last 7 days</b><span class="muted">Example data</span></p>
+        <dl class="kpis s14">
+          <div><dt class="s12">Sales before GST</dt><dd>₹1,84,600</dd></div>
+          <div><dt class="s12">Gross profit</dt><dd>₹21,940</dd></div>
+          <div><dt class="s12">Margin</dt><dd>11.9%</dd></div>
+        </dl>
+        <div class="bars" data-reveal aria-hidden="true"><i style="--h:55%;--n:0"></i><i style="--h:76%;--n:1"></i><i style="--h:45%;--n:2"></i><i style="--h:68%;--n:3"></i><i style="--h:86%;--n:4"></i><i style="--h:100%;--n:5"></i><i style="--h:20%;--n:6"></i></div>
+        <div class="bar-labels s12" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+      </div>
+      <ul class="spec" data-reveal style="--i:2">
+        <li><b>Dashboard.</b> Today's sales, bills, units sold, low stock and recent transactions.</li>
+        <li><b>Sales.</b> Total sales, transactions, units, average bill, sales over time and payment mix.</li>
+        <li><b>Products and stock.</b> Most-sold products by quantity, and low, healthy and out-of-stock counts.</li>
+        <li><b>Profit.</b> Sales before GST, cost of goods sold, gross profit, margin and a bill-by-bill table.</li>
+        <li><b>No guessing.</b> Bills with missing costs are left out of profit and counted separately.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="module" id="sending">
+    <div class="head" data-reveal>
+      <p class="eyebrow">WhatsApp and email</p>
+      <h2>The invoice reaches the customer after checkout.</h2>
+      <p class="s20 muted">Through your own WhatsApp Business account and your own email account. Nothing is sent through us.</p>
+      <a class="more" href="docs.html#whatsapp">Set up WhatsApp sending <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="stack">
+      <div class="viz" data-reveal style="--i:1">
+        <p class="viz-title s14"><b>Sales → Share</b><span class="muted">Example data</span></p>
+        <div class="scroll">
+          <table class="table s14">
+            <thead><tr><th>Invoice</th><th>Channel</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr><td>INV-2026-000148</td><td>WhatsApp</td><td><span class="status ok">Provider accepted</span></td></tr>
+              <tr><td>INV-2026-000148</td><td>Email</td><td><span class="status ok">Provider accepted</span></td></tr>
+              <tr><td>INV-2026-000147</td><td>Email</td><td><span class="status">Queued</span></td></tr>
+              <tr><td>INV-2026-000146</td><td>WhatsApp</td><td><span class="status">Unknown</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="s14 muted">"Provider accepted" means WhatsApp or your mail server took the message. An Unknown result waits for you to confirm before it's sent again.</p>
+      </div>
+      <ul class="spec" data-reveal style="--i:2">
+        <li><b>Email.</b> Your own SMTP account with an app password, on port 587 or 465.</li>
+        <li><b>WhatsApp.</b> The WhatsApp Business Platform Cloud API, with your approved invoice template.</li>
+        <li><b>Automatic or by hand.</b> Sent after checkout, or from Sales whenever you choose.</li>
+        <li><b>Consent first.</b> WhatsApp goes only to customers who agreed, on the mobile saved on the bill.</li>
+        <li><b>No double sends.</b> A queue with limited retries that picks up again when you reopen the app.</li>
+        <li><b>Protected credentials.</b> Encrypted with Windows secure storage and never shown again.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="module" id="backup">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Settings and backup</p>
+      <h2>It's your shop's app, and your shop's data.</h2>
+      <p class="s20 muted">Your name and logo on everything, a backup every day, and your records always exportable.</p>
+      <a class="more" href="docs.html#backup">Backup and restore guide <span aria-hidden="true">→</span></a>
+    </div>
+    <ul class="spec" data-reveal style="--i:1">
+      <li><b>Shop identity.</b> Name, address, phone, GSTIN, invoice note and logo.</li>
+      <li><b>Your brand.</b> On the sidebar, window title, icon, invoices and a desktop launcher named after your shop.</li>
+      <li><b>Daily backup.</b> A full copy in Documents\Counterly Backups, with the last 14 days kept.</li>
+      <li><b>Backup status.</b> Shows the last backup and warns if one failed or is more than two days old.</li>
+      <li><b>CSV export.</b> Products, stock receipts, customers, bills and bill items, ready for your accountant.</li>
+      <li><b>Always exportable.</b> "Export my records" works on the activation screen, even without a license.</li>
+      <li><b>Clean start.</b> Clear this workspace by typing ERASE ALL. A recovery backup is made first.</li>
+    </ul>
+  </section>
+</div>
+
+<section class="band">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">Honest limits</p>
+      <h2>What Counterly doesn't do yet.</h2>
+      <p class="s20 muted">Better you hear it from us before you buy.</p>
+    </div>
+    <ul class="spec no" data-reveal style="margin-top:40px;max-width:760px">
+      <li><b>Government e-invoicing.</b> No IRN, signed QR or e-way bills.</li>
+      <li><b>Returns and credit notes.</b> A mistaken bill is cancelled as a whole.</li>
+      <li><b>Credit sales.</b> Customer balances (udhaar) aren't tracked.</li>
+      <li><b>Accounts.</b> Reports show gross profit. Expenses and net profit aren't included.</li>
+      <li><b>Camera scanning.</b> USB barcode scanners work. Webcams don't.</li>
+      <li><b>Read receipts.</b> Counterly knows when WhatsApp or email accepted a message, not when it was read.</li>
+      <li><b>Other platforms.</b> One Windows PC. No Mac, mobile or multi-branch version.</li>
+      <li><b>Very large catalogues.</b> Above roughly 3,000 to 5,000 products, the billing grid gets slow.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="night cta-band">
+  <div class="glow g1" aria-hidden="true"></div>
+  <div class="wrap" data-reveal>
+    <h2>Bill your first customer today.</h2>
+    <p class="s20 muted" style="margin-top:20px">Install free, activate with a key, and keep every record on your own PC.</p>
+    <div class="cta" style="justify-content:center">
+      <a class="btn" href="download.html"><svg class="i down" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>Download for Windows</a>
+      <a class="btn ghost-dark" href="contact.html">Talk to us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand s20" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#3E76EA"/><path d="M28 13a11 11 0 1 0 0 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg>Counterly</a>
+        <p class="s14">Billing, stock and real profit for Indian shops, wholesalers and small factories. Runs on Windows. Your data stays on your PC.</p>
+      </div>
+      <nav aria-label="Product"><h2>Product</h2><ul><li><a href="features.html">Features</a></li><li><a href="solutions.html">Solutions</a></li><li><a href="security.html">Security</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="download.html">Download</a></li><li><a href="download.html#releases">Release notes</a></li></ul></nav>
+      <nav aria-label="Resources"><h2>Resources</h2><ul><li><a href="docs.html">Documentation</a></li><li><a href="docs.html#start">Getting started</a></li><li><a href="docs.html#whatsapp">WhatsApp setup</a></li><li><a href="docs.html#backup">Backup and restore</a></li><li><a href="docs.html#trouble">Troubleshooting</a></li></ul></nav>
+      <nav aria-label="Company"><h2>Company</h2><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html#support">Support</a></li></ul></nav>
+      <nav aria-label="Legal"><h2>Legal</h2><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">License terms</a></li></ul></nav>
+    </div>
+    <div class="foot-bottom s14">
+      <span>© 2026 Counterly. All rights reserved.</span>
+      <span>Version 1.0.7 · Windows 10 and 11</span>
+      <span class="foot-contact"><a href="https://wa.me/91XXXXXXXXXX">WhatsApp</a><a href="mailto:sales@counterly.example">Email</a></span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
